@@ -36,14 +36,7 @@ public class OpenCSVMain {
 			String output = "";
 			
 			while (myCustomerIterator.hasNext()) {
-				CustomerDTO myCustomer = myCustomerIterator.next();
-//				System.out.println("Name : " + myCustomer.getName());
-//				System.out.println("Email : " + myCustomer.getEmail());
-//				System.out.println("PhoneNo : " + myCustomer.getPhoneNo());
-//				System.out.println("Country : " + myCustomer.getCountry());
-//				System.out.println("===========================");
-				
-				
+				CustomerDTO myCustomer = myCustomerIterator.next();			
 				output = myCustomer.toString();
 				System.out.println(output);
 				
